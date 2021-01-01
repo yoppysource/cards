@@ -1,0 +1,10 @@
+/* app_root {
+    display: flex;
+}
+이렇게 하면 select못함 */
+
+:host{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
